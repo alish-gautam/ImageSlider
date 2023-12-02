@@ -1,0 +1,21 @@
+.slider-wrapper{
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.slides{
+  position: absolute;
+  width: 100%;
+  transition: all 0.4s ease-in;
+  object-fit: cover;
+}
+.prev{
+  width: 60px;
+}
+.next{
+  width: 55px;
+}
