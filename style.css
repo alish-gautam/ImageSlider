@@ -31,3 +31,17 @@
   right: 33%;
   z-index: 1;
 }
+.dots .dot{
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
+  opacity: .2;
+  border-radius: 50%;
+}
+.dots{
+  position: absolute;
+  top: 75%;
+  z-index: 2;
+  display: flex;
+  gap: 8px;
+}
