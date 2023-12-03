@@ -1,21 +1,33 @@
-.slider-wrapper{
+.slider-wrapper {
   display: flex;
-  width: 50%;
+  width: 35%;
   height: 100vh;
   margin: auto;
   align-items: center;
   position: relative;
   overflow: hidden;
-}
-.slides{
-  position: absolute;
-  width: 100%;
-  transition: all 0.4s ease-in;
+  justify-content: center;
+  /* border: 2px solid red; */
   object-fit: cover;
 }
-.prev{
-  width: 60px;
+.slides {
+  position: absolute;
+  width: 100%;
+  transition: all 0.5s ease-out;
+  object-fit: contain;
+  object-position: center;
 }
-.next{
+.prev {
+  width: 62px;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  z-index: 1;
+}
+.next {
   width: 55px;
+  position: absolute;
+  top: 50%;
+  right: 33%;
+  z-index: 1;
 }
